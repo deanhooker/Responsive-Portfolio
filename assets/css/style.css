@@ -239,8 +239,34 @@ body {
   }
   
 
+    @media (max-width: 980px) {
+        .container {
+            width:95%;
+        }
+
+        .main-section {
+            width: 67%;
+        }
+
+        .sidebar {
+            width: 30%;
+        }
+
+        .social {
+            width: 30%;
+            height: auto;
+        }
+        .work {
+            width:100%;
+        }
+
+    }
+
 
     @media ( max-width: 768px) {
+        .container {
+            width: 100%;
+        }
         .main-section {
             display: inline-block;
             width: 95%;
@@ -272,9 +298,26 @@ body {
             width: 46%;
         }
 
+        .social {
+            width: 62px;
+            height: 62px;
+        }
     }
 
     @media (max-width: 640px) {
+        .container {
+            width:100%;
+        }
+
+        #masthead {
+            position: static;
+            margin-bottom: 10px;
+        }
+
+        #main-container {
+            padding:0;
+        }
+
         #logo {
             width: 100%;
             left:0;
@@ -304,7 +347,7 @@ body {
         .main-section {
             display: inline-block;
             width: 95%;
-            margin-top:10px;
+            margin-top:0px;
             margin-left: 2.5%;
             margin-right: 2.5%;
         }
