@@ -238,36 +238,86 @@ body {
     border: 0 none;
   }
   
-  @media (max-width: 640px) {
-      #logo {
-          width: 100%;
-      }
 
-      nav {
-          clear:both;
-          display:inline-block;
-          margin: auto;
-          /* margin-right: auto; */
-          width: 100%;
-          max-width: 100%;
-      }
 
-      nav a {
-          text-align: center;
-          display: inline-block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 31%;
-      }
-      .auth-image {
-          width:100%;
-      }
+    @media ( max-width: 768px) {
+        .main-section {
+            display: inline-block;
+            width: 95%;
+            max-width: 100%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
 
-      .sidebar {
-          max-width: 100%;
-      }
+        .sidebar {
+            float:left;
+            display: inline-block;
+            width: 95%;
+            max-width: 100%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
 
-      .work {
-          width:100%;
-      }
-  }
+        nav {
+            position: relative;
+            right: 2.5%;
+        }
+
+        #logo {
+            position: relative;
+            left: 2.5%;
+        }
+
+        .work {
+            width: 46%;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+        #logo {
+            width: 100%;
+            left:0;
+        }
+  
+        nav {
+            clear:both;
+            display:inline-block;
+            margin: auto;
+            /* margin-right: auto; */
+            width: 100%;
+            max-width: 100%;
+            right:0;
+        }
+  
+        nav a {
+            text-align: center;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 31%;
+        }
+        .auth-image {
+            width:100%;
+        }
+  
+        .main-section {
+            display: inline-block;
+            width: 95%;
+            margin-top:10px;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+  
+        .sidebar {
+            float:left;
+            display: inline-block;
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+  
+        .work {
+            width:100%;
+        }
+    }
